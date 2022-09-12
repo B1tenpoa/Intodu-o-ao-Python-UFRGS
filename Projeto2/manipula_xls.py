@@ -17,7 +17,7 @@ from openpyxl import Workbook
 
 
 def cria_xls(nome_arquivo: str) -> Workbook:
-    """Esta função cria uma pasta de trbalho MS-Excel."""
+    """Esta função cria uma pasta de trabalho MS-Excel."""
     pasta = Workbook()
     return pasta
 
